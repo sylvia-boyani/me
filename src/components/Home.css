@@ -1,5 +1,16 @@
+/* *{
+    background-image: url(../../public/WhatsApp\ Image\ 2023-01-12\ at\ 19.28.36.jpeg);
+    background-repeat: no-repeat;  
+} */
+*{
+    background-color: yellowgreen ;
+}
+
 .home{
     text-align: center;
-    margin-top: 15rem;
-    background-image: ;
+    color: white;
+   
+}
+.content{
+    margin-top: 10rem;
 }
