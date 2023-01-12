@@ -6,8 +6,9 @@
     gap: 5%;
 }
 
-.me h1{
-    margin: 0;
+.about-content h1{
+    margin-bottom: 2rem;
+    color: #662843;
 }
 
 .about-img{
@@ -19,4 +20,5 @@
 }
 .about-content h3{
     margin-bottom: 3rem;
+    color: #662843;
 }

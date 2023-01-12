@@ -1,14 +1,9 @@
-
-/* *{
-  background-color: #61dafb;
-} */
-
 *,
 *::after,
 *::before {
   margin: 0;
   box-sizing: border-box;
-  width: 100%;
+ /* font-family: Euclid Circular,verdana,arial,sans-serif; */
 }
 .App {
   text-align: center;
@@ -16,7 +11,7 @@
 }
 
 .App-header {
-  background-color: yellowgreen;
+  /* background-color: yellowgreen; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
