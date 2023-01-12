@@ -1,16 +1,28 @@
-/* *{
-    background-image: url(../../public/WhatsApp\ Image\ 2023-01-12\ at\ 19.28.36.jpeg);
-    background-repeat: no-repeat;  
-} */
-*{
-    background-color: yellowgreen ;
-}
-
 .home{
     text-align: center;
     color: white;
+    border: solid black;
+    padding: 20px;
+    height: 90vh;
+    background-image: url(../assets/mwah.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 50vh;
+    background-position: center top;
    
 }
+   
+
 .content{
-    margin-top: 10rem;
+    margin-top: 15rem;
+}
+.content h1{
+    margin-bottom: 3rem;
+}
+
+.btn{
+margin-top: 10rem;
+width: 20%;
+padding: 15px;
+border-radius: 1rem;
 }

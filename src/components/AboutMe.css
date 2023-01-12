@@ -1,0 +1,25 @@
+.me{
+    margin: 0;
+    /* margin-top: 20rem; */
+    padding: 40px;
+    /* margin-top: 20rem;
+    margin-left: 5rem; */
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 5%;
+    border: solid red;
+}
+.me h1{
+    margin: 0;
+}
+
+.about-img{
+    border-radius: 2rem;
+    overflow: hidden;
+    object-fit: cover;
+    transition: var(--transition);
+    border: 100px;
+}
+.about-content h1{
+    margin-bottom: 10rem;
+}

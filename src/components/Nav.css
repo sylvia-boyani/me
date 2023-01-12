@@ -35,6 +35,11 @@ a {
   gap: 3rem;
   
 }
+
+.nav__brand h2{
+ margin-right: 5rem;
+}
+
 .nav__toggler {
   display: none;
 }

@@ -1,6 +1,14 @@
 
-*{
+/* *{
   background-color: #61dafb;
+} */
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
 }
 .App {
   text-align: center;

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Nav.css";
-import {AiFillHome} from 'react-icons/ai'
+
 
 function Nav() {
   const [active, setActive] = useState("nav__menu");
@@ -18,12 +18,12 @@ function Nav() {
   return (
     <nav className="nav">
       <a href="#" className="nav__brand">
-        sylvia boyani
+        <h2>Sylvia Boyani</h2>
       </a>
       <ul className={active}>
         <li className="nav__item">
           <a href="#" className="nav__link">
-            Home <AiFillHome />
+            Home
           </a>
         </li>
         <li className="nav__item">
