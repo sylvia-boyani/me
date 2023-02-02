@@ -4,7 +4,7 @@
     border: solid black;
     padding: 20px;
     height: 90vh;
-    background-image: url(../assets/mwah.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(../assets/mwah.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 50vh;
@@ -14,7 +14,7 @@
    
 
 .content{
-    margin-top: 15rem;
+    margin-top: 10rem;
 }
 .content h1{
     margin-bottom: 3rem;
@@ -28,9 +28,10 @@
 }
 
 .btn{
-margin-top: 10rem;
+margin-top: 5rem;
 margin-left: 3rem;
 width: 20%;
 padding: 15px;
 border-radius: 1rem;
 }
+
