@@ -14,6 +14,7 @@ function Home() {
         This brings lots of opportunities, but 
         challenges as well. Are you ready for them?</p> 
      </div>
+     <button className='btn'>Let's talk</button>
      <button className='btn'>Read More</button>
     </div>
   );
