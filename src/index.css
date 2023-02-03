@@ -78,7 +78,7 @@ section > p {
 }
 
 a{
-  color: var(--color-white);
+  color: var(--color-dark);
   transition: var(--transition);
 }
 
@@ -119,3 +119,78 @@ cursor: pointer;
   transform: translateY(0.5rem);
 }
 
+.btn.white{
+  background: var(--color-white);
+}
+
+.btn.white:hover{
+  background: transparent;
+  border-color: var(--color-white);
+}
+
+.btn.primary{
+  background: var(--color-primary);
+  color: white;
+}
+
+.btn.primary:hover{
+  background: transparent;
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+.btn.sm{
+  padding: 0.5rem 1.2rem;
+}
+
+/* Media queries (tablets) */
+@media screen and (max-width: 1024px) {
+  body{
+    font-size: 1rem;
+  }
+
+  .container{
+    width: var(--container-width-md);
+  }
+  
+  section{
+    padding: 8rem 0;
+  }
+
+  section > p{
+    width: 72%;
+    margin-bottom: 3rem;
+  }
+
+  h1{
+    font-size: 2rem;
+  }
+  
+}
+
+/* media queries (phones) */
+@media screen and (max-width: 600px){
+  h1{
+    font-size:2.4rem;
+  }
+
+  h2{
+    font-size: 1.8rem;
+  }
+
+  h3{
+    font-size: 1.2rem;
+  }
+
+  h4{
+    font-size: 1rem;
+  }
+
+  .btn{
+    padding: 0.6rem 1.5rem;
+  }
+
+  section > p{
+    width: var(--container-width-md);
+  }
+}

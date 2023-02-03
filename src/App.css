@@ -1,4 +1,4 @@
-*,
+/* *,
 *::after,
 *::before {
   margin: 0;
@@ -11,7 +11,7 @@
 }
 
 .App-header {
-  /* background-color: yellowgreen; */
+  
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,4 +25,4 @@
   color: #61dafb;
 }
 
-
+ */

@@ -1,21 +1,17 @@
 import React from 'react';
 import './Home.css';
-import Nav from '../components/Nav'
 
 
 function Home() {
   return (
     <div className='home'>
-       <Nav />
      <div className='content'>
      <h1>Be A Digital Innovator</h1>
      <p>Digital technologies are disrupting 
-        old industries and creating new ones. <br></br>
-        This brings lots of opportunities, but 
+        old industries and creating new ones. 
+        This brings <br></br>lots of opportunities, but 
         challenges as well. Are you ready for them?</p> 
      </div>
-     <button className='btn'>Let's talk</button>
-     <button className='btn'>Read More</button>
     </div>
   );
 }
