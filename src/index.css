@@ -14,7 +14,7 @@
   --dark-lightness: 44%;
   --light-lightness: 94%;
   --white-lightness: 100%;
-  --color-primary: hsl(var(--primary-hue), 89%, 42%);
+  --color-primary: #662843;
   --color-white: hsl(0, 5%, var(--white-lightness));
   --color-light: hsl(var(--primary-hue), 5%, var(--light-lightness));
   --color-black: hsl(var(--primary-hue), 5%, var(--black-lightness));
@@ -119,13 +119,14 @@ cursor: pointer;
   transform: translateY(0.5rem);
 }
 
-.btn.white{
+.btn.light{
   background: var(--color-white);
 }
 
-.btn.white:hover{
+.btn.light:hover{
+  border-color: var(--color-primary);
   background: transparent;
-  border-color: var(--color-white);
+  color: whitesmoke;
 }
 
 .btn.primary{
@@ -136,7 +137,7 @@ cursor: pointer;
 .btn.primary:hover{
   background: transparent;
   border-color: var(--color-primary);
-  color: var(--color-primary);
+  color: whitesmoke;
 }
 
 .btn.sm{

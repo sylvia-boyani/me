@@ -1,0 +1,117 @@
+.header{
+    text-align: center;
+    color: white;
+    border: solid black;
+    padding: 20px;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(../../assets/mwah.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 50vh;
+    background-position: center top;
+    transition: var(--transition)
+   
+}
+ 
+.content{
+    margin-top: 8rem;
+    /* border: solid red; */
+    margin-left: 6rem;
+}
+
+.content h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.content p{
+    font-size: 16px;
+    line-height: 30px
+}
+
+.header__cta{
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    margin-top: 25px;
+    margin-left: 12rem;
+    
+}
+
+.header__socials{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-left: 50px;
+    margin-bottom: 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.header__socials a{
+    width: 1.8rem;
+    font-size: 20px;
+    aspect-ratio: var(--color-light);
+    display: grid;
+    padding-left: center;
+    place-items: center;
+    border-radius: var(--border-radius-3);
+}
+
+.header__socials a:hover{
+    /* background: var(--color-primary); */
+    color: #662843;
+    transform: translateX(-0.5rem);
+    border-radius: 20%;
+}
+
+/* Media Queries Tablets and Phones */
+@media screen and (max-width: 1024px){
+    header {
+        margin-top: 50px;
+        height: 100vh;
+        text-align: center;
+        color: white;
+        border: solid black;
+        padding: 10px;
+        height: 45vh;
+    }
+
+    content{
+        margin-top: 50px;
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    .content p{
+        width: 100%;
+        font-size: 12px;
+        line-height: 12px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        align-items: center;
+
+    }
+    .content h1{
+        font-weight:100;
+        font-size: 40px;
+    }
+
+    .header__cta{
+        gap: 1rem;
+        font-size: small;
+        display: flex;
+        align-items: center;
+        gap: 0.4rem;
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .header__socials{
+        display: none;
+    }
+}
+
+

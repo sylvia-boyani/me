@@ -1,8 +1,7 @@
 import './App.css';
 import AboutMe from './components/AboutMe';
-import Home from "./components/Home"
+import Home from "./sections/header/Home"
 import Navbar from './sections/nav/Navbar'
-import Header from './sections/header/Header'
 import About from './sections/about/About'
 import Portfolio from './sections/portfolio/Portfolio'
 import Testimonials from './sections/testimonials/Testimonials'
@@ -19,7 +18,6 @@ function App() {
     <Home/>
     <AboutMe/>
     <Navbar/>
-    <Header/>
     <About/>
     <Services/>
     <Portfolio/>
