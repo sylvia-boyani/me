@@ -26,11 +26,14 @@ a {
     color: white;
 }
 
+a:hover{
+    color: var(--color-primary);
+}
+
 /* hide nav menu on tablets and phones */
 
 @media all and (max-width: 600px) {
     #nav__menu {
-        /* display: none; */
         font-size: 10px;
         gap: 0.5rem;
     }
