@@ -1,14 +1,14 @@
 .header{
     text-align: center;
     color: white;
-    border: solid black;
+    /* border: solid black; */
     padding: 20px;
     height: 120vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(../../assets/mwah.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 50vh;
-    background-position: center top;
+    /* background-position: center top; */
     transition: var(--transition)
    
 }
@@ -43,7 +43,7 @@
     left: 0;
     bottom: 0;
     margin-left: 50px;
-    margin-bottom: 1rem;
+    margin-bottom: 50px;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
@@ -63,6 +63,9 @@
     color: #662843;
     transform: translateX(-0.5rem);
     border-radius: 20%;
+    background: transparent;
+    color: #662843;
+    border-color: #662843;
 }
 
 /* Media Queries Tablets and Phones */
