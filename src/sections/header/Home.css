@@ -1,27 +1,25 @@
 .header{
     text-align: center;
     color: white;
-    /* border: solid black; */
     padding: 20px;
-    height: 120vh;
+    height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(../../assets/mwah.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 50vh;
-    /* background-position: center top; */
+    background-position: center top;
     transition: var(--transition)
    
 }
  
 .content{
-    margin-top: 10rem;
-    border: solid red;
     margin-left: 5rem;
 }
 
 .content h1{
     font-weight: bold;
     font-size: 40px;
+    margin-top: 7rem;
    
 }
 
@@ -34,7 +32,7 @@
     display: flex;
     align-items: center;
     gap: 1.2rem;
-    margin-top: 25px;
+    margin-top: 35px;
     margin-left: 12rem;
 }
 
@@ -57,6 +55,7 @@
     padding-left: center;
     place-items: center;
     border-radius: var(--border-radius-3);
+    margin-top: 2.8rem;
 }
 
 .header__socials a:hover{
@@ -72,11 +71,11 @@
 @media all and (max-width: 1440px){
     .header {
         /* margin-top: 50px; */
-        height: 100vh;
+        /* height: 100vh;
         text-align: center;
         color: white;
         border: solid black;
-        padding: 10px;
+        padding: 10px; */
                
     }
 
@@ -118,6 +117,7 @@
     .content h1{
         font-weight:100;
         font-size: 30px;
+        margin-top: 1rem;
     }
 
     .header__cta{
@@ -127,11 +127,13 @@
         gap: 0.4rem;
         margin-top: 10px;
         margin-left: 2rem;
+        font-size: 0.5rem;
     }
 
     .header__socials a{
         width: 1rem;
-        font-size: 10px;       
+        font-size: 10px;
+        margin-top: 1.4rem;       
     }
 
     .header__socials{
@@ -140,6 +142,10 @@
         margin-top: 10rem;
         gap: 0.5rem;
         top: 0;
+    }
+
+    .header__socials a{
+        margin-top: 1.4rem;
     }
 }
 

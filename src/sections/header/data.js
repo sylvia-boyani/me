@@ -1,4 +1,5 @@
-import {AiFillFacebook, AiOutlineInstagram} from 'react-icons/ai'
+import {AiOutlineInstagram} from 'react-icons/ai'
+import {AiFillFacebook} from 'react-icons/ai'
 import {AiOutlineTwitter} from 'react-icons/ai'
 import {AiFillGithub} from 'react-icons/ai'
 import {AiFillLinkedin} from 'react-icons/ai'
