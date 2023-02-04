@@ -18,7 +18,6 @@ function App() {
     <Home/>
     <AboutMe/>
     <Navbar/>
-    <About/>
     <Services/>
     <Portfolio/>
     <Testimonials/>
