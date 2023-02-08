@@ -39,9 +39,7 @@ const Portfolio = () => {
 			<li onClick={() => filterItem('Backend')}>
 				<a class="img-filter" >Backend</a>
 			</li>
-			<li onClick={() => filterItem('Seo')}>
-				<a class="img-filter" >Seo</a>
-			</li>
+			
 		</ul>
 		</div>
 
