@@ -12,7 +12,7 @@
 }
 
 .about-img{
-    border-radius: 2rem;
+    /* border-radius: 2rem; */
     overflow: hidden;
     object-fit: cover;
     transition: var(--transition);
@@ -31,7 +31,7 @@
     }
     
     .about-img{
-        border-radius: 2rem;
+        /* border-radius: 2rem; */
         overflow: hidden;
         object-fit: cover;
         transition: var(--transition);

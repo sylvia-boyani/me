@@ -20,7 +20,7 @@
 }
 .about-column img{
     background: #7a7a7a;
-    border-radius: 2rem;
+    /* border-radius: 2rem; */
 }
 .about-text{
     margin-bottom: 10px;
