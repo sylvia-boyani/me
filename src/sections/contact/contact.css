@@ -10,6 +10,7 @@
 #contact{
     width: 100%;
 }
+
  
 ::placeholder{
     color: black;
@@ -20,6 +21,7 @@
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
+    color: white;
 }
 
 .contact_option{
@@ -32,8 +34,10 @@
     transition: var(--transition);
 }
 
+
 .contact_option:hover{
     background: transparent;
+    color: black;
     border-color: #662843;
 }
 
@@ -46,7 +50,13 @@
     margin-top: 0.7rem;
     display: inline-block;
     font-size: 0.8rem;
-    color: black;
+    color: fff;
+}
+
+.contact_option a:hover{
+    margin-top: 0.7rem;
+    display: inline-block;
+    font-size: 0.8rem;
 }
 
 

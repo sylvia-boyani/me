@@ -21,8 +21,8 @@ const About = () => {
           </div>
           <p>
             I am a Fullstack web developer from Nairobi, Kenya.
-             I am Tech enthusiast and an Enginering geek. I am passionate About
-            web develoment, Cloud computing with GCP and I also 
+             I am Tech enthusiast and an Engineering geek. I am passionate About
+            web development, Cloud computing with GCP and I also 
             like repairing electric and electronic equipments.
           </p>
         </div>
