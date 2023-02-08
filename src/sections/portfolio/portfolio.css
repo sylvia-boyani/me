@@ -1,0 +1,136 @@
+.portfolio{
+    padding: 6rem 6rem 0 6rem;
+}
+.port-tittle{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.port-tittle h2{
+    padding-bottom: 20px;
+    font-weight: 900;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+.port-tittle h2 span{
+    color: #662843;
+}
+.port-tittle p{
+    font-size: 15px;
+    font-weight: 400;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+.port-line{
+    height: 3px;
+    width: 82px;
+    background-color: #662843;
+    margin: auto;
+}
+.nav-list{
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.nav-list li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.nav-list li a {
+    cursor: pointer;
+    color: #fff;
+    background-color: #662843;
+    font-size: 14px;
+    font-weight: 100;
+    padding: 8px 20px;
+    text-transform: uppercase;
+    border-radius: 25px;
+}
+.port-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.port-col{
+    margin: 15px;
+}
+.project-item{
+    position: relative;
+}
+.project-item img{
+    width: 100%;
+    height: auto;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    bottom: 4px;
+    right: 0px;
+    background: rgba(0, 0, 0, 0.9);
+    opacity: 0;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+.overlay .overlay-inner {
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    text-align: center;
+}
+.project-item a:hover .overlay {
+    opacity: 1;
+}
+.overlay .overlay-inner h4 {
+    color: #fff;
+    transition: all .5s;
+    transform: translateY(-30px);
+    text-transform: capitalize;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+.overlay .overlay-inner p {
+    color: #fff;
+    transition: all .5s;
+    transform: translateY(30px);
+    margin-top: 10px;
+}
+.project-item:hover .overlay .overlay-inner h4 {
+    transform: translateY(0);
+}
+.project-item:hover .overlay .overlay-inner p {
+    transform: translateY(0);
+}
+@media screen and (max-width:900px) {
+    .port-tittle p{
+        width: 80%;
+    }
+    .nav-list li{
+      padding-bottom: 30px;
+    }
+    .port-row{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width:768px) {
+    .portfolio{
+        padding: 4rem 1rem 0 1rem;
+        overflow: hidden;
+    }
+    .port-col{
+        margin: 15px;
+    }
+    .port-tittle p{
+        width: 100%;
+    }
+    .nav-list{
+        padding-bottom: 30px;
+    }
+}
+@media screen and (max-width:509px) {
+    .port-row{
+        grid-template-columns: 1fr;
+    }
+    .port-col{
+        margin: 10px 0;
+    }
+}
