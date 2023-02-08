@@ -21,7 +21,8 @@ const Portfolio = () => {
 
     <div className='port-tittle'>
 		<h2>my <span>works</span></h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, temporibus consequuntur dicta ullam illo facere.</p>
+		<p>Hey here are some my projects. Most of them are school projects and
+      one proffesional one that is still in progress(Tumaini Ministries Center) </p>
 	    <div className="port-line"></div>
 	</div>
 
