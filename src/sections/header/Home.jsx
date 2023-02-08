@@ -1,6 +1,8 @@
 import React from 'react';
 import './Home.css';
 import data from './data'
+import CV from '../../assets/boyani-CV.pdf'
+import {HiDownload} from 'react-icons/hi'
 
 function Home() {
   return (
@@ -18,8 +20,8 @@ function Home() {
           perfomant website today!
         </p>
         <div className='header__cta'>
-          <a href='#contact' className='btn primary'>Let's Talk</a>
-          <a href='#portfolio' className='btn light'>My Work</a>
+          <a href={CV} download className='btn primary'>Download CV<HiDownload/></a>
+          <a href='#contact' className='btn light'>Let's Talk</a>
         </div>
         <div className='header__socials'>
           {

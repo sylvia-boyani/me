@@ -1,0 +1,114 @@
+.about{
+    margin: 0;
+    padding: 40px;
+    overflow: hidden;
+    padding: 6rem 2rem 3rem 2rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 3%;
+    
+}
+.about-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.about-column{
+    width: 90%;
+   
+}
+.about-column img{
+    background: #7a7a7a;
+    border-radius: 2rem;
+}
+.about-text{
+    margin-bottom: 10px;
+   
+}
+.about-text .title{
+    margin-bottom: 32px;
+}
+.about-text .about-tittle .span{
+    font-size: 16px;
+    color: #662843;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 16px;
+}
+.about-text .about-tittle h2{
+    color: #7a7a7a;
+    font-size: 35px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    position: relative;
+}
+.about-tittle h2 span{
+    color: #662843;
+}
+.about-text h2::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    height: 3px;
+    width: 82px;
+    background-color: #662843;
+}
+.about-text p{
+    font-size: 16px;
+    color: #111111;
+    font-weight: 100;
+    line-height: 28px;
+    padding-top: 25px ;
+}
+.learn-btn{
+    font-size: 14px;
+    color:#fff;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    background: #662843;
+    border-radius: 50px;
+    padding: 14px 40px;
+    display: inline-block;
+}
+@media all and (max-width:1070px){
+    .about-row{
+        display: flex;
+        flex-direction: column;
+    }
+    .about-pic{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-pic img{
+        width: 80%;
+    }
+    .about-row .about-column{
+        width: 100%;
+    }
+    .about-text{
+        padding-top: 50px;
+    }
+}
+@media all and (max-width:768px){
+    .about-pic img{
+        width: 90%;
+    }
+}
+@media screen and (max-width:600px){
+    .about{
+        padding: 4rem 1rem 2rem 1rem;
+    }
+    .about-pic img{
+        width: 100%;
+    }
+    .about-text .about-tittle h2 {
+        font-size: 20px;
+    }
+}

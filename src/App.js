@@ -16,6 +16,7 @@ function App() {
   return (
    <main>
     <Home/>
+    <About/>
     <AboutMe/>
     <Navbar/>
     <Services/>
