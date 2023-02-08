@@ -29,17 +29,17 @@ const Menu = [
     },
     {
         id: 5,
-        image:"",
+        image:"https://raw.githubusercontent.com/sylvia-boyani/hope/master/src/assets/tumaini.png",
         heading:"Website",
         paragrapgh:"Design",
         category:"Designing"
     },
     {
         id: 6,
-        image:"PortImages/digital-marketing-gcef55a09c_1280.jpg",
-        heading:"Search Engine",
+        image:"https://raw.githubusercontent.com/sylvia-boyani/me/main/src/assets/ME.png",
+        heading:"Portfolio",
         paragrapgh:"Optimiazation",
-        category:"Seo"
+        category:"Portfolio"
     },
 ]
 export default Menu
