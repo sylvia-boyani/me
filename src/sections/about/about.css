@@ -5,7 +5,7 @@
     padding: 6rem 2rem 3rem 2rem;
     display: grid;
     grid-template-columns: 50% 50%;
-    gap: 3%;
+    gap: 2%;
     
 }
 .about-row{
@@ -15,7 +15,7 @@
     
 }
 .about-column{
-    width: 90%;
+    width: 100%;
    
 }
 .about-column img{
@@ -29,7 +29,7 @@
    
 }
 .about-text .title{
-    margin-bottom: 32px;
+    margin-bottom: 12px;
 }
 .about-text .about-tittle .span{
     font-size: 16px;
@@ -70,7 +70,7 @@
     color: #111111;
     font-weight: 100;
     line-height: 28px;
-    padding-top: 25px ;
+    padding-top: 15px ;
 }
 .learn-btn{
     font-size: 14px;
@@ -117,6 +117,10 @@
         width: 100%;
     }
     .about-text .about-tittle h2 {
-        font-size: 20px;
+        font-size: 15px;
+    }
+
+    .about-text p{
+        font-size: 12px;
     }
 }

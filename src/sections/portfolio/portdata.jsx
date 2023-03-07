@@ -4,7 +4,7 @@ const Menu = [
         image:"https://raw.githubusercontent.com/sylvia-boyani/signing-system/main/assets/images/home-page.png",
         heading:"Signing-in App",
         paragrapgh:"Website",
-        category:"frontend"
+        category:"frontend",
     },
     {
         id: 2,

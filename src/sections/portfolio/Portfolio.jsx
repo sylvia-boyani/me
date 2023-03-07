@@ -53,7 +53,7 @@ const Portfolio = () => {
 
 								<div className="port-col" key={elem.id}>
 									<div class="project-item">
-										<a class="zoom1" href="#">
+										<a class="zoom1" href="">
 											<img alt="" src={elem.image} />
 											<div class="overlay">
 												<div class="overlay-inner">

@@ -20,9 +20,8 @@ const About = () => {
             <h2>Hello, My Name Is  <span> Sylvia Boyani </span></h2>
           </div>
           <p>
-            I am a Fullstack web developer from Nairobi, Kenya.
-             I am Tech enthusiast and an Engineering geek. I am passionate About
-            web development, Cloud computing with GCP and I also 
+            I am a Fullstack web developer. I am passionate About
+            web development, Cloud computing, Open source and I also 
             like repairing electric and electronic equipments.
           </p>
         </div>

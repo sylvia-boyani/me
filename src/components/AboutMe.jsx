@@ -16,9 +16,9 @@ function AboutMe() {
 
          <div data-aos="fade-left" className="about-column">
             <div className='about-content'>
-               <p><h1>What makes me different?</h1>
+               <h3>What makes me different?</h3>
                   <h3>My Skills</h3>
-                  We all have our strengths. I’ve perfected
+                  <p>We all have our strengths. I’ve perfected
                   mine <br></br>so you can focus on yours. Get in touch
                   to find <br></br>out how I can help.</p>
             </div>
