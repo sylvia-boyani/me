@@ -59,7 +59,7 @@ const Portfolio = () => {
 												<div class="overlay-inner">
 													<h4>{elem.heading}</h4>
 													<p>{elem.paragrapgh}</p>
-													<a href={elem.sourceCode} className='btn primary' target="_blank" rel='noopener noreferrer'>Source Code</a>
+													{/* <a href={elem.sourceCode} className='btn primary' target="_blank" rel='noopener noreferrer'>Source Code</a> */}
 												</div>
 											</div>
 										</a>
