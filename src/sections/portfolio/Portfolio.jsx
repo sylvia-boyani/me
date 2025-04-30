@@ -53,13 +53,13 @@ const Portfolio = () => {
 
 								<div className="port-col" key={elem.id}>
 									<div class="project-item">
-										<a class="zoom1" href="">
+										<a class="zoom1" href={elem.link} target="_blank" rel='noopener noreferrer'>
 											<img alt="" src={elem.image} />
 											<div class="overlay">
 												<div class="overlay-inner">
 													<h4>{elem.heading}</h4>
 													<p>{elem.paragrapgh}</p>
-													<a href='https://github.com/sylvia-boyani' className='btn primary' target="_blank">Source Code</a>
+													<a href={elem.sourceCode} className='btn primary' target="_blank" rel='noopener noreferrer'>Source Code</a>
 												</div>
 											</div>
 										</a>
