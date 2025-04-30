@@ -21,8 +21,8 @@ const Portfolio = () => {
 
 				<div className='port-tittle'>
 					<h2>my <span>works</span></h2>
-					<p>Here are some my projects. Most of them are school projects and
-						projects I have done ever since then.</p>
+					<p>Here are some my projects. They are my recently 
+						done projects and projects I had done in school.</p>
 					<div className="port-line"></div>
 				</div>
 
