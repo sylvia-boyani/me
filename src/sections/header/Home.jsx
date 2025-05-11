@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.css';
 import data from './data'
-import CV from '../../assets/boyani-CV.pdf'
+import CV from '../../assets/boyani-updated-CV-soft.pdf'
 import {HiDownload} from 'react-icons/hi'
 
 function Home() {
